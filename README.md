@@ -60,10 +60,10 @@ PDBファイルには単位構造のデータのみしか記載されていな�
 この回転行列と並進ベクトルを元の座標に作用させることにより、対称操作した後の座標が得られる。
 
 つまり、ある原子の元の座標を <img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;r">
-、回転行列を<img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;A"> 、並進ベクトルを <img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;b"> とすると、対称操作した後の原子の座標 <img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;r'">
+、回転行列を<img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;A"> 、並進ベクトルを <img src="https://latex.codecogs.com/png.latex?\inline&space;\bg_white&space;b"> とすると、対称操作した後の原子の座標 <img src="https://latex.codecogs.com/s.latex?\inline&space;\bg_white&space;r'">
 は、次のように表すことができる。
 
-<img src="https://latex.codecogs.com/png.latex?\bg_white&space;r'&space;=&space;Ar&space;&plus;&space;b">
+<img src="https://latex.codecogs.com/svg.latex?\bg_white&space;r'&space;=&space;Ar&space;&plus;&space;b">
 
 この演算を原子1つ1つに、必要な対称操作の数だけ行う。
 
